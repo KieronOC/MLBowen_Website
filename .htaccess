@@ -1,0 +1,3 @@
+RewriteCond %{HTTPS} !on
+RewriteCond %{REQUEST_URI} !.well-known/acme-challenge
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
