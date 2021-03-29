@@ -227,6 +227,14 @@ a.active {
 
 /* ABOUT MARY LOU PAGE */
 
+.testTitle {
+    padding-left: 0;
+}
+
+.testTitle .red {
+    color: #bb7391;
+}
+
 .amr1 {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -260,16 +268,21 @@ a.active {
 .amr1c2 .sh {
     font-size: 14px;
     margin-bottom: 20px;
+    box-shadow: -10px 12px 12px rgb(131, 111, 120);
     background-color: rgba(221, 214, 214, .75);
 }
 
 .amr1c1 .cv {
     margin-top: 5px;
     border-top: solid;
-    border-color: #d47ca1;
+    border-color: rgb(212, 124, 161);
     border-width: 2px;
     padding-top: 5px;
     margin-right: 15px;
+}
+
+div.col.c1.shadow.p-2.mb-1 {
+    margin-bottom: 0 !important;
 }
 
 
