@@ -451,6 +451,7 @@ div.map {
 
 .affiliations img {
     width: 70px;
+    height: auto;
     padding: 0;
     margin: 0;
 }
