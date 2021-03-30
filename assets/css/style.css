@@ -272,6 +272,10 @@ a.active {
     background-color: rgba(221, 214, 214, .75);
 }
 
+.amr1c2.sh.p {
+    margin-bottom: 0px;
+}
+
 .amr1c1 .cv {
     margin-top: 5px;
     border-top: solid;
@@ -281,8 +285,20 @@ a.active {
     margin-right: 15px;
 }
 
-div.col.c1.shadow.p-2.mb-1 {
+div.col.c1 {
+    font-size: .8rem;
     margin-bottom: 0 !important;
+}
+
+.mb-1 p {
+    margin-bottom: 0;
+}
+
+
+/* Events-Long Covid Page */
+
+.longCovid {
+    height: 500px;
 }
 
 
