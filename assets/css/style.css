@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    max-width: 98%;
+    max-width: 100;
     margin: auto;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -53,7 +53,7 @@ body {
 }
 
 .telno a {
-    color: #d47ca1;
+    color: #7d495f;
     font-size: 18px;
     font-weight: 500;
 }
@@ -61,8 +61,14 @@ body {
 
 /* Navigation section */
 
+.pad {
+    padding-left: 10px;
+}
+
 nav.navbar {
-    padding: 0;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -76,20 +82,20 @@ nav.navbar {
 }
 
 .navbar-custom a {
-    color: #38383a;
+    color: #1c1c1d;
     font-weight: 400;
 }
 
 a:hover {
     background-color: rgb(211, 216, 216);
     border-radius: 3px;
-    color: #d47ca1;
+    color: #7e2658;
 }
 
 a.active {
     background-color: rgb(211, 216, 216);
     border-radius: 3px;
-    color: #d47ca1;
+    color: #7e2658;
 }
 
 .form-inline {
@@ -117,6 +123,10 @@ a.active {
 
 /* HOME PAGE */
 
+.vis {
+    background-color: #e9e6dfab;
+}
+
 .mainimage {
     /* Royalty free picture from dreamstime.com */
     margin-left: 0px;
@@ -132,8 +142,7 @@ a.active {
     flex-direction: column;
     -ms-flex-line-pack: justify;
     align-content: space-between;
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding: 0;
 }
 
 .content {
@@ -148,7 +157,22 @@ a.active {
 }
 
 .ir1 {
-    margin-bottom: 75px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 612px) {
+    .ir1 h1 {
+        font-size: 40px;
+        /* background-color: #75d468; */
+    }
+}
+
+@media screen and (max-width: 612px) {
+    .screen {
+        font-size: 18px;
+        /* background-color: #75d468; */
+    }
 }
 
 .ir1c1 {
@@ -162,7 +186,8 @@ a.active {
     align-content: space-between;
     font-size: 2.3rem;
     font-weight: 700;
-    color: #8b2c62;
+    color: #7e2658;
+    padding-top: 40px;
 }
 
 .ir1c2 {
@@ -184,14 +209,14 @@ a.active {
 .ir1c2>.r6,
 .ir1c2>.r7 {
     font-size: 1.2rem;
-    color: #8b2c62;
+    color: #7e2658;
     font-weight: 500;
 }
 
 .linkbutton {
     margin-right: 15px;
     margin-bottom: 10px;
-    color: #38383a;
+    color: #1c1c1d;
     border-color: #d4b2c0;
     background-color: #d47ca1;
 }
@@ -200,19 +225,29 @@ a.active {
     background-color: rgb(211, 216, 216);
     border-color: #d4b2c0;
     border-radius: 3px;
-    color: #d47ca1;
+    color: #7e2658;
 }
 
 
 /* BOWEN THERAPY PAGE */
 
+h4 {
+    color: #7e2658;
+    margin-top: 10px;
+}
+
+.bgAdjustment {
+    background-color: #e9e6df9c;
+    padding: 10px;
+}
+
 .tbt-r1 h6 a {
-    color: #d47ca1;
+    color: #7e2658;
     font-weight: 600;
 }
 
 .tbt-r1 p a {
-    color: #d47ca1;
+    color: #7e2658;
 }
 
 .video {
@@ -225,6 +260,34 @@ a.active {
 }
 
 
+/* TREATMENT PAGE */
+
+.picture {
+    padding-bottom: 30px;
+    margin-bottom: 5px;
+}
+
+.treatmentPic {
+    margin-top: 20px;
+    max-height: 450px;
+    /* margin-bottom: 20px; */
+}
+
+.le {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width:650px) {
+    .le {
+        max-height: 250px;
+    }
+}
+
+
 /* ABOUT MARY LOU PAGE */
 
 .testTitle {
@@ -232,7 +295,7 @@ a.active {
 }
 
 .testTitle .red {
-    color: #bb7391;
+    color: #7e2658;
 }
 
 .amr1 {
@@ -245,7 +308,7 @@ a.active {
 }
 
 .marylou {
-    height: auto;
+    height: 255px;
     width: auto;
     margin-top: 10px;
 }
@@ -262,14 +325,14 @@ a.active {
 }
 
 .link {
-    color: #d47ca1;
+    color: #7e2658;
 }
 
 .amr1c2 .sh {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
     box-shadow: -10px 12px 12px rgb(131, 111, 120);
-    background-color: rgba(221, 214, 214, .75);
+    background-color: rgba(221, 214, 214, 0.87);
 }
 
 .amr1c2.sh.p {
@@ -286,7 +349,7 @@ a.active {
 }
 
 div.col.c1 {
-    font-size: .8rem;
+    /* font-size: 20px; */
     margin-bottom: 0 !important;
 }
 
@@ -299,6 +362,7 @@ div.col.c1 {
 
 .longCovid {
     height: 500px;
+    margin-left: 10px;
 }
 
 
@@ -309,7 +373,7 @@ div.col.c1 {
     padding: 10px;
     border-style: solid;
     border-color: #d468a6;
-    margin: 5px;
+    margin: 5px 5px 5px 0px;
 }
 
 .contactinfo {
@@ -342,11 +406,11 @@ legend {
 }
 
 .form-control.mobnof {
-    width: 30%;
+    width: 65%;
 }
 
 .form-control.telnof {
-    width: 30%;
+    width: 65%;
 }
 
 .form-control.commentf {
@@ -395,7 +459,7 @@ div.map {
     width: 100%;
     height: 600px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #d468a6;
     -ms-flex-line-pack: center;
     align-content: center;
@@ -413,17 +477,23 @@ div.map {
 .footer {
     border-top: solid;
     border-color: #d468a6;
-    border-width: 4px;
-    background-color: #fff;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.btotop {
+    padding-left: 0;
+    margin-left: 10px;
 }
 
 .btotop a {
-    color: #d47ca1;
+    color: #7e2658;
 }
 
 .copyright {
-    font-size: 0.7rem;
-    color: #525355;
+    font-size: 0.65rem;
+    color: #7e2658;
+    padding-left: 0;
 }
 
 .copyright a {
@@ -432,7 +502,8 @@ div.map {
 }
 
 .copyright p {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .ydt {
@@ -449,12 +520,14 @@ div.map {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    font-size: 0.7em;
-    color: #525355;
+    font-size: 0.65em;
+    color: #7e2658;
+    padding-right: 0;
 }
 
 .ydt p {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 .logos {

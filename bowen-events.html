@@ -4,18 +4,6 @@
 <!-- See index page for main references. Not repeated on every page where code is repeated -->
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG4YB9SK78"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-MG4YB9SK78');
-    </script> -->
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -62,6 +50,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W42CWHT"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <!-- Header : Design repeated on every page -->
     <!-- How to do a return to top of page button sourced from https://www.computerhope.com/issues/ch001475.htm -->
 
@@ -88,7 +77,7 @@
                     <a href="tel:07501017195"><span>Call for a chat : 07501 017195</span></a>
                 </div>
                 <div class="col-sm-6 icons">
-                    <a href="https://www.facebook.com/MLBowenHaslemere" target="_blank" rel="noopener" alt="Link to Mary Lou's Facebook"> <i class="fab fa-facebook" style="font-size: 40px"></i></a>
+                    <a href="https://www.facebook.com/MLBowenHaslemere" target="_blank" rel="noopener" alt="Link to Mary Lou's Facebook" aria-label="Link to Facebook"> <i class="fab fa-facebook" style="font-size: 40px"></i></a>
                     <!-- <a href="https://bbc.co.uk/" target="_blank"> <i class="fab fa-whatsapp-square" style="font-size: 40px"></i></a> -->
                 </div>
             </div>
@@ -96,7 +85,7 @@
 
         <!-- Page navigation -->
 
-        <nav class="navbar navbar-custom navbar-expand-md kj-navlist">
+        <nav class="navbar navbar-custom navbar-expand-lg">
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-pressed="true">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -108,7 +97,7 @@
                     <li class="nav-item"> <a class="nav-link" href="bowen-treatment.html">Treatment</a></li>
                     <li class="nav-item"> <a class="nav-link" href="bowen-about-me.html">About Me</a></li>
                     <li class="nav-item"> <a class="nav-link active" href="bowen-events.html">Long Covid</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="bowen-contact.html">Booking/Contact</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="bowen-contact-withForm.html">Booking/Contact</a></li>
                 </ul>
             </div>
 
@@ -123,15 +112,17 @@
         <div class="row nor1">
             <div class="col c1 longCovid">
                 <h4>Long Covid Symptoms</h4>
-                <p>I will post an update about how Bowen Therapy <u>may</u> be able to help people with Long Covid symptoms shortly. March 2021</p>
+                <div classs='c2'>
+                    <p class="bgAdjustment">I will post an update about how Bowen Therapy <u>may</u> be able to help people with Long Covid symptoms shortly. March 2021</p>
+                </div>
             </div>
         </div>
 
         <div class="container">
             <div class="row ir2 justify-content-center text-center">
-                <a class="btn btn-primary linkbutton" href="bowen-contact.html">Book an appointment</a>
-                <a class="btn btn-primary linkbutton" href="bowen-treatment.html">More about Treatment</a>
-                <a class="btn btn-primary linkbutton" href="bowen-therapy.html">More about Bowen</a>
+                <a class="btn btn-primary linkbutton" href="bowen-contact-withForm.html" aria-label="Link to contact page and form">Book an appointment</a>
+                <a class="btn btn-primary linkbutton" href="bowen-treatment.html" aria-label="Link to page about a Bowen Treatment and pricing">About treatment & pricing</a>
+                <a class="btn btn-primary linkbutton" href="bowen-therapy.html" aria-label="Link to page about Bowen Therapy">More about Bowen</a>
             </div>
         </div>
     </section>
@@ -140,19 +131,17 @@
     <footer class="container-fluid footer">
         <div class="row">
             <div class="col btotop">
-                <a href="#top">
-                    <p>Back to top</p>
-                </a>
+                <a href="#top" aria-label="Link to top of page">Back to top</a>
             </div>
         </div>
 
         <div class="row logos">
             <div class="col-md affiliations justify-content-around">
-                <a href="https://www.bowentherapy.org.uk//" target="_blank" rel="noopener"><img src="assets/logos/BTPA.jpg" class="img-responsive rectimg" alt="Link to Bowen Therapy Professional Association">
+                <a href="https://www.bowentherapy.org.uk//" target="_blank" rel="noopener"><img src="assets/logos/BTPA.jpg" class="img-responsive rectimg" alt="Link to Bowen Therapy Professional Association" aria-label="Link to Bowen Therapy Professional Association">
                 </a>
-                <a href="https://www.thebowentechnique.com//" target="_blank" rel="noopener"><img src="assets/logos/CBS-Retina-Logo@0.5x.png" class="img-responsive rectimg" alt="Link to College of Bowen Studies">
+                <a href="https://www.thebowentechnique.com//" target="_blank" rel="noopener"><img src="assets/logos/CBS-Retina-Logo@0.5x.png" class="img-responsive rectimg" alt="Link to College of Bowen Studies" aria-label="Link to College of Bowen Studies">
                 </a>
-                <a href="https://www.fht.org.uk/" target="_blank" rel="noopener"><img src="assets/logos/FHT-logo.jpg" class="img-responsive rectimg" alt="Link to Federation of Holistic Therapists">
+                <a href="https://www.fht.org.uk/" target="_blank" rel="noopener"><img src="assets/logos/FHT-logo.jpg" class="img-responsive rectimg" alt="Link to Federation of Holistic Therapists" aria-label="Link to Federation of Holistic Therapists">
                 </a>
 
             </div>
@@ -160,7 +149,7 @@
         </div>
         <div class="row">
             <div class="col-sm copyright d-flex">
-                <p>&copy; 2021 ML Bowen & Mary Lou O'Connell</p>
+                <p>&copy; 2021 Mary Lou O'Connell</p>
             </div>
             <div class="col-sm ydt d-flex">
                 <p>Website by You Did That</p>

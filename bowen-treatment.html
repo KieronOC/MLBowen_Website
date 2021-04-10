@@ -5,19 +5,6 @@
 <!-- See index page for main references. Not repeated on every page where code is repeated -->
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-MG4YB9SK78"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-MG4YB9SK78');
-    </script> -->
-    <meta charset="UTF-8">
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -36,6 +23,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-W42CWHT');
     </script>
     <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
     <!-- From advice from mentor and some reading on this site added extra info to title and changed code file
         names to help with search results https://backlinko.com/hub/seo/urls -->
     <title>MLBowen | Bowen Therapy for anxiety, stress, pain & relaxation in Surrey, West Sussex & Hampshire</title>
@@ -59,11 +47,14 @@
 <!-- Main body of website that will be seen -->
 
 <body>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W42CWHT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <!-- Header : Design repeated on every page -->
+
     <!-- How to do a return to top of page button sourced from https://www.computerhope.com/issues/ch001475.htm -->
 
     <a name="top"></a>
@@ -89,7 +80,7 @@
                     <a href="tel:07501017195"><span>Call for a chat : 07501 017195</span></a>
                 </div>
                 <div class="col-sm-6 icons">
-                    <a href="https://www.facebook.com/MLBowenHaslemere" target="_blank" rel="noopener" alt="Link to Mary Lou's Facebook"> <i class="fab fa-facebook" style="font-size: 40px"></i></a>
+                    <a href="https://www.facebook.com/MLBowenHaslemere" target="_blank" rel="noopener" alt="Link to Mary Lou's Facebook" aria-label="Link to Facebook"> <i class="fab fa-facebook" style="font-size: 40px"></i></a>
                     <!-- <a href="https://bbc.co.uk/" target="_blank"> <i class="fab fa-whatsapp-square" style="font-size: 40px"></i></a> -->
                 </div>
             </div>
@@ -97,7 +88,7 @@
 
         <!-- Page navigation -->
 
-        <nav class="navbar navbar-custom navbar-expand-md kj-navlist">
+        <nav class="navbar navbar-custom navbar-expand-lg">
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-pressed="true">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -109,7 +100,7 @@
                     <li class="nav-item"> <a class="nav-link active" href="bowen-treatment.html">Treatment</a></li>
                     <li class="nav-item"> <a class="nav-link" href="bowen-about-me.html">About Me</a></li>
                     <li class="nav-item"> <a class="nav-link" href="bowen-events.html">Long Covid</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="bowen-contact.html">Booking/Contact</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="bowen-contact-withForm.html">Booking/Contact</a></li>
                 </ul>
             </div>
             <!-- <form class="form-inline search">
@@ -124,29 +115,33 @@
         <!-- Accordian design to minimise text on page landing -->
 
         <div Class="container-fluid">
-            <div class="row">
-                <div class="col c2">
+            <div class="row picture">
+                <div class="col-lg c2 ">
                     <h4>Time & pricing</h4>
+                    <div class="bgAdjustment">
+                        <ul>
+                            <li>A treatment is 45 to 60 minutes.</li>
+                            <li>Each treatment costs £60.</li>
+                            <li>£50 per treatment if bought in blocks of 3 and prepaid (£150).</li>
+                            <li>For children under 12 years, treatments are 20 to 30 minutes and cost £30 each.</li>
+                        </ul>
 
-                    <ul>
-                        <li>A treatment is 45 to 60 minutes.</li>
-                        <li>Each treatment costs £60.</li>
-                        <li>£50 per treatment if bought in blocks of 3 and prepaid (£150).</li>
-                        <li>For children under 12 years, treatments are 20 to 30 minutes and cost £30 each.</li>
-                    </ul>
+                        <p>A cancellation period of at least 24 hours is appreciated.</p>
+                        <p>If you have private medical insurance please check, as this treatment is increasingly covered by Insurers.<br></p>
+                    </div>
+                </div>
+                <div class="col-lg c2 treatmentPic "><img class="le img-fluid mx-auto d-block rounded img-responsive" src="assets/images/Photo_1_10th_ Apr.jpg" alt="Picture of treatment room" width="auto" height="350">
 
-                    <p>If you have private medical insurance please check as this treatment is increasingly covered by Insurers</p>
-                    <p>A cancellation period of at least 24 hours is appreciated.</p>
                 </div>
             </div>
             <div class="row tbt-r1">
                 <div class="col c1">
-                    <div class="panel-group" id="accordian">
+                    <div class="panel-group bgAdjustment" id="accordian">
 
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h6 class="panel-title"><a data-toggle="collapse" data-parent="#accordian" href="#p1">
-                            What to Expect from a Treatment</a></h6>
+                            What to Expect from a Treatment.</a></h6>
                             </div>
 
                             <div id="p1" class="panel-collapse collapse">
@@ -207,7 +202,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading ">
-                                <h6><a data-toggle="collapse" data-parent="#accordian" href="#p5">Aftercare</a></h6>
+                                <h6><a data-toggle="collapse" data-parent="#accordian" href="#p5">What should I do after a treatment?</a></h6>
                             </div>
                             <div id="p5" class="panel-collapse collapse">
                                 <div class="panel-body">
@@ -237,19 +232,17 @@
     <footer class="container-fluid footer">
         <div class="row">
             <div class="col btotop">
-                <a href="#top">
-                    <p>Back to top</p>
-                </a>
+                <a href="#top" aria-label="Link to top of page">Back to top</a>
             </div>
         </div>
 
         <div class="row logos">
             <div class="col-md affiliations justify-content-around">
-                <a href="https://www.bowentherapy.org.uk//" target="_blank" rel="noopener"><img src="assets/logos/BTPA.jpg" class="img-responsive rectimg" alt="Link to Bowen Therapy Professional Association">
+                <a href="https://www.bowentherapy.org.uk//" target="_blank" rel="noopener"><img src="assets/logos/BTPA.jpg" class="img-responsive rectimg" alt="Link to Bowen Therapy Professional Association" aria-label="Link to Bowen Therapy Professional Association">
                 </a>
-                <a href="https://www.thebowentechnique.com//" target="_blank" rel="noopener"><img src="assets/logos/CBS-Retina-Logo@0.5x.png" class="img-responsive rectimg" alt="Link to College of Bowen Studies">
+                <a href="https://www.thebowentechnique.com//" target="_blank" rel="noopener"><img src="assets/logos/CBS-Retina-Logo@0.5x.png" class="img-responsive rectimg" alt="Link to College of Bowen Studies" aria-label="Link to College of Bowen Studies">
                 </a>
-                <a href="https://www.fht.org.uk/" target="_blank" rel="noopener"><img src="assets/logos/FHT-logo.jpg" class="img-responsive rectimg" alt="Link to Federation of Holistic Therapists">
+                <a href="https://www.fht.org.uk/" target="_blank" rel="noopener"><img src="assets/logos/FHT-logo.jpg" class="img-responsive rectimg" alt="Link to Federation of Holistic Therapists" aria-label="Link to Federation of Holistic Therapists">
                 </a>
 
             </div>
@@ -257,7 +250,7 @@
         </div>
         <div class="row">
             <div class="col-sm copyright d-flex">
-                <p>&copy; 2021 ML Bowen & Mary Lou O'Connell</p>
+                <p>&copy; 2021 Mary Lou O'Connell</p>
             </div>
             <div class="col-sm ydt d-flex">
                 <p>Website by You Did That</p>
