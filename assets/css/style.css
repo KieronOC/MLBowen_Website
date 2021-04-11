@@ -131,7 +131,7 @@ a.active {
     /* Royalty free picture from dreamstime.com */
     margin-left: 0px;
     margin-right: 0px;
-    background-image: url('../images/Picture1.jpg');
+    background-image: url('../images/Picture2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -531,7 +531,7 @@ div.map {
 }
 
 .logos {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .affiliations {
