@@ -11,11 +11,17 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-
+            document.getElementById('lname').value = '';
+            document.getElementById('fname').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('mobno').value = '';
+            document.getElementById('telno').value = '';
+            document.getElementById('comment').value = '';
         },
         function(error) {
             console.log("FAILED", error);
         }
     )
+
     return false;
 }
