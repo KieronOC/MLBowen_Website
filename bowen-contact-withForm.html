@@ -47,6 +47,8 @@
             emailjs.init("user_vlc4VRWIsRIMS5cHiND8O");
         })();
     </script>
+    <!-- My JS -->
+    <script type="text/javascript" src="assets/js/sendEmail.js" async defer></script>
     <!-- Recaptcha -->
     <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
@@ -123,14 +125,14 @@
 
             <div class="row">
                 <!-- <form id="contactform" class="col" action="/action_page.php" target="_blank" method="POST"> -->
-                <form onsubmit="return sendMail(this);" id="contact_form" class="col" action="?" target="_blank">
+                <form onsubmit="return sendMail(this);" id="contact_form" class="col" action="?" target="_self">
                     <h6>Please contact me to have a chat or arrange an appointment</h6>
 
                     <fieldset class="fieldset bgAdjustment">
 
                         <p style="margin-bottom: 5px">Please fill in the following and press Submit :</p>
 
-                        <p style="font-size: 14px;">(After sending the form you will receieve an automatic email response confirming receipt and a copy of any Comments / Questions you set out below) </p>
+                        <p style="font-size: 14px;">(After sending this form you will receive an automatic email response confirming receipt and a copy of any Comments / Questions you set out below) </p>
 
                         <div class="form-group">
                             <label for="lname" class="namelabel">Last Name :</label>
@@ -251,7 +253,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <script src="assets/js/sendEmail.js"></script>
+
 
 </body>
 

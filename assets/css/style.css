@@ -131,7 +131,7 @@ a.active {
     /* Royalty free picture from dreamstime.com */
     margin-left: 0px;
     margin-right: 0px;
-    background-image: url('../images/Picture2.jpg');
+    background-image: url('../images/Picture1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -361,8 +361,21 @@ div.col.c1 {
 /* Events-Long Covid Page */
 
 .longCovid {
-    height: 500px;
+    /* height: 500px; */
     margin-left: 10px;
+}
+
+p a {
+    color: #7e2658;
+    text-decoration: underline;
+}
+
+
+/* Long Covid Page */
+
+h6.panel-title {
+    color: #7e2658;
+    font-weight: 600;
 }
 
 
@@ -531,7 +544,7 @@ div.map {
 }
 
 .logos {
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .affiliations {
