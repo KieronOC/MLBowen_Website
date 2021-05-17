@@ -565,8 +565,17 @@ div.map {
 }
 
 .affiliations img {
-    width: 70px;
-    height: auto;
+    width: auto;
+    height: 60px;
     padding: 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .affiliations img {
+        width: auto;
+        height: 32px;
+        padding: 0;
+        margin: 0;
+    }
 }
